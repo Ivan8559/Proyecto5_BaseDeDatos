@@ -1,6 +1,6 @@
 require ('dotenv').config()
 
-require ("./models/user.model") //parte 2
+require ("./models/User.model") //parte 2
 const cors=require('cors') // parte 3
 const userRoutes = require('./routes/User.routes') //parte 2
 
